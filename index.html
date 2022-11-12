@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="index.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+     <div class="wrapper fadeInDown">
+  <div id="formContent">
+    <!-- Tabs Titles -->
+    <h2 class="active"> Sign In </h2>
+
+
+    <!-- Login Form -->
+    <form action="authenticate.php" method="post">
+      <label for="username">
+					<i class="fas fa-user"></i>
+				</label>
+      <input type="text" id="username" class="fadeIn second" name="login" placeholder="username" required>
+      <label for="password">
+					<i class="fas fa-lock"></i>
+				</label>
+      <input type="password" id="password" class="fadeIn third" name="login" placeholder="password" required>
+      <input type="submit" class="fadeIn fourth" value="Login">
+    </form>
+
+  </div>
+</div>
+</form>
+</body>
+</html>
