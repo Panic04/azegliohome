@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script>
+    if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === false){
+      header('Location: index.html');
+    exit;
+    }
+  </script>
+  <link rel="stylesheet" href="index.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
