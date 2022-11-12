@@ -1,7 +1,7 @@
 <?php
 session_start();
 // Change this to your connection info.
-$DATABASE_HOST = 'payazegl.homes';
+$DATABASE_HOST = 'localhost';
 $DATABASE_USER = 'u746375557_admin';
 $DATABASE_PASS = 'Panic12345.';
 $DATABASE_NAME = 'u746375557_phplogin';
