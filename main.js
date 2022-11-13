@@ -4,6 +4,6 @@ function data() {
     xhttp.send();
   }
 data();
-for (let i = 0; i < lnames, i++) {
-    var 
-}
+// for (let i = 0; i < lnames, i++) {
+//     var 
+// }
